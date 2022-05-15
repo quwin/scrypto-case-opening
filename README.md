@@ -37,9 +37,10 @@ key=[Last ResourceAddress generated]
 ```
 resim call-method $c buy_keys 1,$xrd 25
 ```
-6. Open a case. The weapon you get will be randomized according to the odds. On average, it'll take a few hundred cases to get a knife (Yeah the odds suck in CS:GO)
+6. Open a case. The weapon you get will be randomized according to the odds. On average, it'll take a few hundred cases to get a knife (Yeah the odds suck in CS:GO) Check to see what skin you got afterwards
 ```
 resim call-method $c open_case 1,$key
+resim show $a
 ```
 7. Keep rolling! Try to see the coolest or lowest Float skin you can get!
 
