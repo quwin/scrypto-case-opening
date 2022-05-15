@@ -43,7 +43,9 @@ resim call-method $c open_case 1,$key
 ```
 7. Keep rolling! Try to see the coolest or lowest Float skin you can get!
 
-8. Trade-ups! You can trade ten skins of the same rarity for another skin of a higher rarity. 10x Mil-Specs -> Restricted, 10x Restricted -> Classified, and 10x Classified -> Covert
+8. Trade-ups! You can trade ten skins of the same rarity for another skin of a higher rarity. 
+
+10x Mil-Specs -> Restricted, 10x Restricted -> Classified, and 10x Classified -> Covert
 ```
 resim call-method $c trade_up "#$[NFTID1],#$[NFTID2],#$[NFTID3],#$[NFTID4],#$[NFTID5],#$[NFTID6],#$[NFTID7],#$[NFTID8],#$[NFTID9],#$[NFTID10],$skin"
 ```
