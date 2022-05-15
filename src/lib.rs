@@ -288,7 +288,16 @@ blueprint! {
                 && skin9_data.rarity == skin1_data.rarity
                 && skin10_data.rarity == skin1_data.rarity
             );
-
+            assert!(skin1_data.stat_trak == skin2_data.stat_trak 
+                && skin3_data.stat_trak == skin1_data.stat_trak
+                && skin4_data.stat_trak == skin1_data.stat_trak
+                && skin5_data.stat_trak == skin1_data.stat_trak
+                && skin6_data.stat_trak == skin1_data.stat_trak
+                && skin7_data.stat_trak == skin1_data.stat_trak
+                && skin8_data.stat_trak == skin1_data.stat_trak
+                && skin9_data.stat_trak == skin1_data.stat_trak
+                && skin10_data.stat_trak == skin1_data.stat_trak
+            );
             let stattrak = skin1_data.stat_trak;
             let current_rarity = if  skin1_data.rarity == String::from("Mil-Spec") {
                 1
