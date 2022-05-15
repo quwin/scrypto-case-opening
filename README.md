@@ -1,12 +1,14 @@
-# Scrypto-case-opening : A CS:GO-based randomized case opening
+# scrypto-case-opening : A CS:GO-based randomized case opening
 
 This blueprint implements weapon skins from Counter-Strike: Global Offensive as NFTs. In the blueprint, users can exchange XRD for Keys, use Keys to open a case (I chose the Chroma 2 Case to implement), and trade-up skins to create a higher-tier skin. 
 
-Some limitations: 
+Some current limitations: 
 1. Not all knives are implmented (There are a few hundred knive skins which would clutter the blueprint lol)
-2. Cases do not have to be bought and burnt: This could be done easily, but I was too lazy to add it 
-3. Nametags are not implemented
+2. Cases do not have to be bought and burnt (This could be done easily, but I was too lazy to add it)
+3. Nametags are not implemented (Same thing)
 4. Float minimums/maximums of individual skins do not have data (The system is in place for float min/max, but I don't wanna get the data)
+5. Different cases would have to be coded as seperate HashMaps, and a new open_case method would need to be added for that new case.
+6. Trade-ups with skins of different cases mixed together is not implemented.
 
 # How to use:
 1. Reset the simulator
